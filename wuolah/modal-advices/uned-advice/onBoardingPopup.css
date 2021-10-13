@@ -1,0 +1,90 @@
+
+/* CAMPAIGN MODAL CLASSES*/
+.onBoardingPopup .modal-header {
+    background-color: #fff !important;
+    height: 50px !important;
+  }
+  
+  .onBoardingPopup .modal-header .modal-header-text {
+    display: none !important;
+  }
+  
+  .onBoardingPopup.modal.wlh-modal.wlh-popup .modal-header .modal-header-close {
+    top: 10px !important;
+    right: 10px !important;
+  }
+  
+  .onBoardingPopup.modal.wlh-modal.wlh-popup
+    .modal-header
+    .modal-header-close.wlh-btn-color.wlh-btn-transparent {
+    color: #333 !important;
+  }
+  
+  .onBoardingPopup.modal.wlh-modal .modal-content {
+    text-align: center;
+  }
+  
+  .onBoardingPopup.modal.wlh-modal .modal-content h6 {
+    font-family: "Poppins";
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 120%;
+    color: #111;
+    margin-top: 0px;
+    margin-bottom: 20px;
+  }
+  
+  .onBoardingPopup.modal.wlh-modal .modal-content .image {
+    width: calc(100% - 48px);
+    margin: 0 24px 24px 24px;
+    border-radius: 16px;
+    height: auto;
+  }
+  
+  .onBoardingPopup.modal.wlh-modal .modal-content .text {
+    width: calc(100% - 48px);
+    padding: 0;
+    font-size: 15px;
+    font-weight: 600;
+    margin: 0 24px 24px 24px;
+  }
+  
+  .onBoardingPopup.modal.wlh-modal .modal-content .text2 {
+    width: calc(100% - 48px);
+    padding: 0;
+    font-size: 10px;
+    margin: 0 24px 24px 24px;
+  }
+
+  .onBoardingPopup.modal.wlh-modal .modal-content button {
+    margin-bottom: 8px;
+  }
+
+
+  
+  @media (max-width: 767px) {
+    .onBoardingPopup.modal.wlh-modal .modal-content h6 {
+      font-size: 20px;
+      width: 96vw;
+      margin: 0 2vw 24px 2vw;
+      padding: 0;
+    }
+  
+    .onBoardingPopup.modal.wlh-modal .modal-content .image {
+      width: 90vw;
+      margin: 0 5vw 24px 5vw;
+      padding: 0;
+    }
+  
+    .onBoardingPopup.modal.wlh-modal .modal-content .text {
+      width: 96vw;
+      margin: 0 2vw 24px 2vw;
+      padding: 0;
+    }
+  
+    .onBoardingPopup.modal.wlh-modal .modal-content .text2 {
+      width: 96vw;
+      margin: 0 2vw 24px 2vw;
+      padding: 0;
+    }
+  }

@@ -1,0 +1,43 @@
+.bottom-side {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column !important;
+}
+
+.options-section {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.option-item {
+  width: calc(100 - 50%);
+  height: auto;
+  background-color: #fff;
+  border-radius: 16px;
+  border: solid 2px #000;
+  width: 70vw;
+    margin: 25px;
+    padding: 8px;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.option-title {
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.option-description {
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.option-item div {
+  margin-bottom: 8px;
+}

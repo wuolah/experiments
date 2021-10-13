@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    .content {
+        display: flex;
+        justify-content: center;
+				align-items: center;
+				width: 70%;
+				flex-flow: column;
+				margin-inline: auto;
+    		margin-top: 40px;
+    }
+
+    .content-heading {
+        color: white;
+        border-color: rgb(0, 85, 255) !important; 
+        background: rgb(0, 85, 255) !important;
+        font-family: "Poppins", sans-serif;
+        display: inline-block;
+        vertical-align: top;
+        width: auto;
+        height: 28px;
+        line-height: 29px;
+        font-size: 15px;
+        font-weight: 600;
+        white-space: nowrap;
+        width: 100%;
+        border-radius: 8px;
+        padding: 0 16px;
+        
+    }
+
+    .content-body {
+      display: flex;
+      flex-flow: column;
+      width: 100%;
+      justify-content: center;
+      align-items: flex-start;
+		}
+		
+		.section {
+			display: flex;
+    	flex-flow: column;
+    	width: 100%;
+    	margin-top: 16px;
+		}
+
+		.section .control-label {
+  		font-family: "Poppins", sans-serif;
+  		display: inline-block;
+  		vertical-align: top;
+  		width: auto;
+  		height: 28px;
+  		line-height: 29px;
+  		font-size: 13px;
+  		font-weight: 600;
+  		white-space: nowrap;
+		}
+
+		.section input {
+			width: 50%;
+		}
+
+		.section .date {
+			width: 50%;
+		}
+
+		.radio-section {
+			display: flex;
+			align-items: center;
+			justify-content: space-around;
+			}
+
+		.radio-section label {
+			width: 30%;
+			display: flex;
+			justify-content: center;
+			align-items: flex-start;
+		}
+
+		.radio-section input {
+			width: auto;
+		}
+
+		.btn-section {
+			margin-top: 16px;
+		}
+
+		.action-btn {
+			width: auto;
+			height: 36px;
+			border-radius: 15px;
+			background: rgb(0, 85, 255) !important; 
+			background-color:  rgb(0, 85, 255) !important; 
+			color: white !important; 
+			border-color: rgb(0, 85, 255) !important; 
+			cursor: pointer;
+			padding: 0 10px;
+			text-align: center;
+			outline: none;
+			position: relative;
+			transform: translate3d(0, 0, 0);
+			overflow: hidden;
+			align-items: center;
+			display: flex;
+		}
+
+		.action-btn.wlh-btn-icon {
+			display: inline-block;
+			vertical-align: top;
+			margin-right: 5px;
+		}
+
+		.action-btn .action-btn-text {
+			font-family: "Poppins", sans-serif;
+			display: inline-block;
+			vertical-align: top;
+			width: auto;
+			height: 28px;
+			line-height: 29px;
+			font-size: 14px;
+			font-weight: 600;
+			white-space: nowrap;
+		}
+
+		.action-btn .wlh-btn-icon, .wlh-btn .wlh-btn-icon i {
+			width: auto;
+			height: 28px;
+			line-height: 29px;
+			font-size: 12px;
+		}
+
+
+
+</style>
+
+<body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/momentjs/2.14.1/moment.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.37/js/bootstrap-datetimepicker.min.js"></script>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.37/css/bootstrap-datetimepicker.min.css">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">   
+
+
+
+<div class="content">
+    <div class="content-heading">Publicar clases particulares</div>
+    <div class="content-body">
+         <div class="section">
+            <label class="control-label">Asignatura</label>
+            <input type="text" class="form-control" name="fname" id="fname">
+				 </div>
+
+        <div class="section">
+           <label class="control-label">Selecciona una fecha y hora disponibles para ti</label>
+           <div class='input-group date' id='datetimepicker1'>
+              <input type='text' class="form-control" />
+              <span class="input-group-addon">
+              <span class="glyphicon glyphicon-calendar"></span>
+              </span>
+           </div>
+        </div>
+
+         <div class="section">
+            <label class="control-label"><strong>Precios:</strong></label>
+
+            <form class="radio-section">
+                <label>
+                  <input type="radio" name="optradio">15€ / hora
+								</label>
+								
+                <label>
+                  <input type="radio" name="optradio" checked>10€ / hora
+								</label>
+								
+                <label>
+                  <input type="radio" name="optradio">5€ / hora
+                </label>
+              </form>
+				</div>
+		</div>
+		
+		<div class="btn-section">
+			<button id="WXP016-btn" class="action-btn">
+				<div class="action-btn-text" >Publicar</div>
+		</button>
+		</div>
+    </div>
+</div>
+
+<script>
+    $(function () {
+      $('#datetimepicker1').datetimepicker();
+   });
+
+</script>
+    
+</body>
+</html>

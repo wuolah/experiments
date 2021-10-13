@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      .animated {
+        -webkit-animation-duration: 3s;
+        animation-duration: 3s;
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+      }
+      @-webkit-keyframes flash {
+        0%,
+        50%,
+        100% {
+          opacity: 1;
+        }
+        25%,
+        75% {
+          opacity: 0;
+        }
+      }
+      @keyframes flash {
+        0%,
+        50%,
+        100% {
+          opacity: 1;
+        }
+        25%,
+        75% {
+          opacity: 0;
+        }
+      }
+      .flash {
+        -webkit-animation-name: flash;
+        animation-name: flash;
+      }
+
+	  .wxp-030-text{
+		  color: red;
+	  }
+
+	 .wxp-030-btn {
+		color: red;
+		border-radius: 1px solid;
+	  }
+    </style>
+  </head>
+
+  <body>
+	<a id="wxp-030-text" href="/shop?utm_source=wuolah&utm_medium=coins&utm_campaign=wxp-030" class="nav-anchor wxp-030-text animated flash">OFERTAS PARA LOS EXÁMENES</a>
+	<a id="wxp-030-btn" href="/shop?utm_source=wuolah&utm_medium=coins&utm_campaign=wxp-030" class="nav-anchor wxp-030-btn animated flash">VER</a>
+  </body>
+</html>

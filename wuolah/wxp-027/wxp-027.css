@@ -1,0 +1,33 @@
+@media (min-width: 992px){
+  .benefits ul.benefits .benefit {
+      height: auto;
+  }
+}
+
+nav {
+  display: none !important;
+}
+
+.cta {
+  padding: 16px 0;
+  top: 0px !important;
+}
+
+.cta .container > .btn::before {
+  content: "";
+  position: absolute;
+  background-color: #1a5af5;
+  transition: 0.3s ease-out;
+  border-radius: 8px;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  background: black !important;
+  border: 2px solid white !important;
+}
+
+.cta-ph-0001-app {
+  margin-top: 30px;
+}

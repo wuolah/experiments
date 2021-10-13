@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Document</title>
+		
+		<!--jQuery-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+</head>
+
+<body>
+	<div class="content">
+		<div class="section">
+
+			<div class="section-title">Publicar clases particulares</div>
+			<div class="inner-info">
+        <span>Gana dinero convirtiendote en un profesor particular de WUOLAH y publica cuando estas disponible para dar clases online.
+        			Para reservar una clase particular de otro usuario visita su perfil y consulta su disponibilidad.</span>
+    	</div>
+
+			<div class="section-row">
+				<div>
+					<label for="">Asignatura</label>
+					<input type="text" name="subject" id="subject" placeholder="Nombre de la asignatura" />
+				</div>
+			</div>
+
+			<div class="section-row">
+					<div>
+					  <label for="bday">Fecha:</label>
+					  <input type="date" id="bday" name="date" required pattern="[0-9]{4}-[0-9]{2}-[0-9]{2}">
+					  <span class="validity"></span>
+					</div>
+
+					<div>
+						<label for="appt">hora:</label>
+						<input type="time" id="appt" name="time" min="09:00" max="22:00" required>
+					</div>
+			</div>
+
+			<div class="section-row">
+					<div>
+						<label>
+							<input class="with-gap" name="group1" type="radio" value=15 />
+							<span>15€ / hora</span>
+						</label>
+					</div>
+					<div>
+						<label>
+							<input class="with-gap" name="group1" type="radio" value=10 checked/>
+							<span>10€ / hora</span>
+						</label>
+					</div>
+					<div>
+						<label>
+							<input class="with-gap" name="group1" type="radio" value=5 />
+							<span>5€ / hora</span>
+						</label>
+					</div>
+			</div>
+
+			<div class="section-row">
+				<button onclick="publishClass()" class="wlh-btn wlh-btn-color wlh-btn-medium">
+					<div class="wlh-btn-text">Publicar</div>
+				</button>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

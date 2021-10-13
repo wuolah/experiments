@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+			 body {
+      		margin: 0px;
+      		font-family: "Poppins", sans-serif;
+    		}
+
+        main {
+					width: 100%;
+		  		max-width: 860px;
+		  		margin: 0 calc(50% - 430px);
+		  		display: flex;
+		  		align-items: center;
+		  		flex-flow: column;
+		  		min-height: 100%;
+        }
+
+        .container {
+          width: 100%;
+          height: auto;
+					display: flex;
+					flex-flow: column;
+          background-color: #ffffff;
+					border-radius: 8px;
+					justify-content: center;
+    			align-items: center;
+        }
+        
+        .banner {
+          height: 300px;
+					width: 200px;
+					margin-right: 16px;
+        }
+
+				.banner img {
+					width: 260px;
+					height: auto;
+				}
+
+        .middle-side {
+					position: relative;
+    			width: 100%;
+    			height: auto;
+    			display: flex;
+    			margin-top: 75px;
+    			background-color: black;
+    			border-radius: 16px;
+    			margin-bottom: 30px;
+    			max-width: 883px;
+					padding-right: 36px;
+    			justify-content: flex-end;
+				}
+				
+				.middle-img {
+					position: absolute;
+    			bottom: -51px;
+    			left: -143px;
+    			height: auto;
+					width: 64%;
+				}
+
+				.text-side {
+					min-width: 440px;
+					padding-top: 16px;
+				}
+
+			  .bottom-side {
+					width: 100%;
+					display: flex;
+					justify-content: center;
+					align-items: center;
+					flex-flow: column !important;
+				}
+
+				.options-section {
+					display: flex;
+					width: 100%;
+					justify-content: center;
+					align-items: center;
+				}
+
+				.option-item {
+					width: calc(100 - 50%);
+					height: auto;
+					background-color: #fff;
+					border-radius: 16px;
+					border: solid 2px #000;
+					width: 70vw;
+    				margin: 25px;
+    				padding: 8px;
+					display: flex;
+					flex-flow: column;
+					justify-content: center;
+					align-items: center;
+				}
+
+				.option-title {
+					font-size: 15px;
+					font-weight: 700;
+				}
+
+				.option-description {
+					font-size: 13px;
+					font-weight: 600;
+				}
+
+				.option-item div {
+					margin-bottom: 8px;
+				}
+
+				.title,
+				.subtitle {
+				  width: auto;
+				  height: auto;
+				  margin: 16px 0;
+				  font-weight: 800;
+				  font-size: 24px;
+				  color: #000000;
+				  line-height: 110%;
+				  text-align: center;
+				}
+
+				.title {
+				  font-family: "Poppins", sans-serif;
+				}
+				.subtitle {
+				  margin: 0;
+				  font-weight: 600;
+				  font-size: 16px;
+				  display: flex;
+				  align-items: center;
+				}
+
+				.subtitle label {
+				  cursor: pointer;
+				  margin-left: 8px;
+				}
+
+				.subtitle i {
+				  font-size: 20px;
+				  color: #cccccc;
+				  margin-left: 12px;
+				  cursor: pointer;
+				  z-index: 5;
+				  pointer-events: all;
+				}
+
+				hr.solid {
+					width: 65%;
+    			border-top: 1px solid #bbb;
+    			border-radius: 8px;
+				}
+
+				.product-card {
+					display: flex;
+					flex-flow: column;
+					height: auto;
+					background-color: #000000;
+					border-radius: 8px;
+					width: 100%;
+    			margin-top: 20px;
+				}
+
+				.action-section {
+					display: flex;
+    			justify-content: space-between;
+    			align-items: center;
+    			margin-bottom: 8px;
+				}
+
+				.product {
+					display: flex;
+					flex-flow: column;
+					margin-left: 25px;
+				}
+
+				.product-title {
+					color: #ffffff;
+					width: auto;
+				  height: auto;
+				  margin: 16px 0;
+				  font-weight: 700;
+				  font-size: 24px;
+				  line-height: 110%;
+				  text-align: center;
+					margin: 40px 0 0 0px;
+				}
+
+				.product-price {
+					color: #ffffff;
+					width: auto;
+				  height: auto;
+				  margin: 16px 0;
+				  font-weight: 500;
+				  font-size: 28px;
+				  line-height: 110%;
+				  text-align: center;
+				}
+
+				.btn-section {
+					margin-right: 25px;
+				}
+
+				.action-btn {
+					width: auto;
+					height: 40px;
+					border-radius: 15px;
+					background: #ffca1d;
+    			background-color: #ffca1d;
+    			color: #816519;
+    			border-color: rgba(247, 214, 107, 0.4);
+					cursor: pointer;
+					padding: 0 10px;
+					text-align: center;
+					outline: none;
+					position: relative;
+					transform: translate3d(0, 0, 0);
+					overflow: hidden;
+					align-items: center;
+    			display: flex;
+				}
+
+				.action-btn.wlh-btn-icon {
+				    display: inline-block;
+				    vertical-align: top;
+				    margin-right: 5px;
+				}
+
+				.action-btn .wlh-btn-icon img {
+					pointer-events: initial;
+    			user-select: initial;
+    			height: 18px;
+    			margin: 6px 0px;
+    			width: auto;
+    			height: 30px;
+    			margin: 0;
+				}
+
+				.action-btn .action-btn-text {
+    			font-family: "Poppins", sans-serif;
+    			display: inline-block;
+    			vertical-align: top;
+    			width: auto;
+    			height: 28px;
+    			line-height: 29px;
+    			font-size: 17px;
+    			font-weight: 600;
+    			white-space: nowrap;
+				}
+
+				.action-btn .wlh-btn-icon, .wlh-btn .wlh-btn-icon i {
+			    width: auto;
+			    height: 28px;
+			    line-height: 29px;
+			    font-size: 12px;
+				}
+
+				.list-section {
+					width: 100%;
+					display: flex;
+					flex-flow: column;
+					margin-top: 20px;
+				}
+
+				.list-item {
+					display: flex;
+					justify-content: left;
+					align-items: center;
+					color: white;
+					font-size: 15px;
+					padding-left: 16px;
+    			padding-bottom: 8px;
+					font-weight: 600;
+				}
+
+				.list-item img {
+					width: 34px;
+					margin-right: 8px;
+				}
+
+				.bubble-section {
+					display: flex;
+					width: 100%;
+					justify-content: center;
+					align-items: center;
+				}
+
+				.bubble-item {   
+					width: 25%;
+    			display: flex;
+    			justify-content: center;
+    			align-items: center;
+				}
+
+				.bubble-item img {
+					height: 60px;
+					width: auto;
+				}
+
+				.bubble-item-text {
+					display: flex;
+    			flex-flow: column;
+    			justify-content: flex-start;
+    			align-items: start;
+				}
+
+				.bubble-text-title {
+					width: auto;
+				  height: auto;
+				  font-weight: 800;
+				  font-size: 16px;
+				  color: #000000;
+				  line-height: 110%;
+					text-align: left;
+					font-family: 'Poppins' sans-serif;
+				}
+
+				.bubble-text-subtitle {
+					width: auto;
+				  height: auto;
+				  font-weight: 500;
+				  font-size: 14px;
+				  color: #000000;
+				  line-height: 110%;
+					text-align: left;
+					font-family: 'Poppins' sans-serif;
+				}
+
+				/* Móvile */
+				@media screen and (max-width: 991px) {
+					.left-side {
+						display: none;
+					}
+					.right-side {
+						width: 100%;
+						justify-content: center;
+						align-items: center;
+					}
+
+				}
+				/* Ipad vertical */
+				@media screen and (min-width: 768px) and (max-width: 991px) {
+				}
+
+				/* Ipad horizontal */
+				@media screen and (min-width: 992px) and (max-width: 1279px) {
+
+				}
+
+      </style>
+</head>
+<body>
+    <main>
+        <div class="container">
+						<div class="up-side">
+							<div class="title">Olvídate de los anuncios</div>
+							<div class="subtitle">Descarga todos los apuntes que te dé la gana y di HOLA a esa matrícula de honor.</div>
+	
+							<hr class="solid">
+						</div>
+
+            <div class="middle-side">
+							<img class="middle-img" src="https://wuolah-public.s3-eu-west-1.amazonaws.com/GTM/wxp-015_resources/assetv2.png" alt="">
+
+							<div class="text-side">
+								<div class="list-section">
+									<div class="list-item">
+										<img src="https://wuolah-public.s3-eu-west-1.amazonaws.com/GTM/wxp-015_resources/check.png" alt="">
+										Elimina todo tipo de publicidad en la web.
+									</div>
+	
+									<div class="list-item">
+										<img src="https://wuolah-public.s3-eu-west-1.amazonaws.com/GTM/wxp-015_resources/check.png" alt="">
+										Visualiza todos los documentos sin publicidad.
+									</div>
+	
+									<div class="list-item">
+										<img src="https://wuolah-public.s3-eu-west-1.amazonaws.com/GTM/wxp-015_resources/check.png" alt="">
+										Descarga sin publicidad de forma ilimitada.
+									</div>
+	
+									<div class="list-item">
+										<img src="https://wuolah-public.s3-eu-west-1.amazonaws.com/GTM/wxp-015_resources/check.png" alt="">
+										En cualquier dispositivo.
+									</div>	
+	
+									<div class="list-item">
+										<img src="https://wuolah-public.s3-eu-west-1.amazonaws.com/GTM/wxp-015_resources/check.png" alt="">
+										No más vídeos = Más velocidad en tu navegador.
+									</div>	
+								</div>
+	
+								<div class="product-card">
+									<div class="action-section">
+											<div class="product">
+												<h2 class="product-title">Wuolah PRO</h2>
+												<div class="product-price">4,95€/mes</div>
+											</div>
+	
+											<div class="btn-section">
+												<button id="WXP015-v2-btn" onclick="checkout('pro', 'MENSUAL 4.95€/mes', 'null')" class="action-btn" style="pointer-events: initial; user-select: initial;">
+													<div class="wlh-btn-icon" style="pointer-events: initial; user-select: initial;">
+															<img src="https://wuolah-web.s3-eu-west-1.amazonaws.com/assets/icon/pro.gif" style="pointer-events: initial; user-select: initial;">
+													</div>
+	
+													<div class="action-btn-text" style="pointer-events: initial; user-select: initial;">Quiero ser PRO</div>
+											    </button>
+											</div>
+									</div>
+								</div>
+							</div>
+
+					</div>
+
+					<div class="bottom-side">
+						<div class="options-section">
+							<div class="option-item">
+								<div class="option-title">PRO trimestral 19,99€</div>
+								<div class="option-description">3 Meses sin anuncios</div>
+								<button id="WXP025-quaterly-btn" onclick="checkoutPro(1)"  class="action-btn" style="pointer-events: initial; user-select: initial;">
+									<div class="wlh-btn-icon" style="pointer-events: initial; user-select: initial;">
+											<img src="https://wuolah-web.s3-eu-west-1.amazonaws.com/assets/icon/pro.gif" style="pointer-events: initial; user-select: initial;">
+									</div>
+
+									<div class="action-btn-text" style="pointer-events: initial; user-select: initial;">Obtener</div>
+								</button>
+							</div>
+
+							<div class="option-item">
+								<div class="option-title">PRO anual 49,99€</div>
+								<div class="option-description">12 Meses sin anuncios</div>
+								<button id="WXP025-anual-btn" onclick="checkoutPro(2)" class="action-btn" style="pointer-events: initial; user-select: initial;">
+									<div class="wlh-btn-icon" style="pointer-events: initial; user-select: initial;">
+											<img src="https://wuolah-web.s3-eu-west-1.amazonaws.com/assets/icon/pro.gif" style="pointer-events: initial; user-select: initial;">
+									</div>
+
+									<div class="action-btn-text" style="pointer-events: initial; user-select: initial;">Obtener</div>
+								</button>
+							</div>
+						</div>
+
+						<div class="bubble-section">
+							<div class="bubble-item">
+								<img src="https://wuolah-public.s3-eu-west-1.amazonaws.com/GTM/wxp-015_resources/adblock.png" alt="">
+
+								<div class="bubble-item-text">
+									<div class="bubble-text-title">¡Fuera publi!</div>
+									<div class="bubble-text-subtitle">Concéntrate al máximo</div>
+								</div>
+							</div>
+							
+							<div class="bubble-item">
+								<img src="https://wuolah-public.s3-eu-west-1.amazonaws.com/GTM/wxp-015_resources/notes.png" alt="">
+
+								<div class="bubble-item-text">
+									<div class="bubble-text-title">Apuntes ilimitados</div>
+									<div class="bubble-text-subtitle">Sin publi y sin gastar coins</div>
+								</div>
+							</div>
+
+							<div class="bubble-item">
+								<img src="https://wuolah-public.s3-eu-west-1.amazonaws.com/GTM/wxp-015_resources/device.png" alt="">
+
+								<div class="bubble-item-text">
+									<div class="bubble-text-title">En cualquier dispositivo</div>
+									<div class="bubble-text-subtitle">Tú eliges desde donde estudias</div>
+								</div>
+							</div>
+
+							<div class="bubble-item">
+								<img src="https://wuolah-public.s3-eu-west-1.amazonaws.com/GTM/wxp-015_resources/cancel.png" alt="">
+
+								<div class="bubble-item-text">
+									<div class="bubble-text-title">Cancela cuando quieras</div>
+									<div class="bubble-text-subtitle">No ponemos límites, tú decides.</div>
+								</div>
+							</div>
+						</div>
+					</div> 
+    </main>
+</body>
+</html>

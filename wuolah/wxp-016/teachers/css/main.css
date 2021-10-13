@@ -1,0 +1,171 @@
+#datetime {
+  border-bottom: 1px solid rgb(143, 143, 143);
+  color: rgb(151, 148, 148);
+}
+
+.wlh-color {
+  background: rgb(0, 85, 255) !important;
+  color: rgb(0, 85, 255) !important;
+}
+
+.content {
+  border-radius: 16px;
+  display: flex;
+  flex-flow: column;
+  margin-top: 50px;
+  align-items: center;
+  margin-top: 0;
+}
+
+.section {
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+  border-radius: 16px;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  border-radius: 16px;
+}
+
+.section-row {
+  margin-top: 8px;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+  width: 85%;
+  align-items: flex-start;
+  margin-bottom: 16px;
+}
+
+.section-row button{
+  margin-top: 16px;
+  margin: auto;
+}
+
+
+
+.section-row label {
+  color: black;
+  font-family: "Poppins", sans-serif;
+  display: inline-block;
+  vertical-align: top;
+  width: auto;
+  height: 17px;
+  line-height: 29px;
+  font-size: 13px;
+  font-weight: 600;
+  white-space: nowrap;
+  margin: 0 8px;
+}
+
+form span {
+  color: black;
+  margin-right: 16px;
+  padding-left: 8px;
+}
+
+.radio-prices {
+  display: flex;
+  justify-content: center;
+}
+
+[type="radio"]:checked + label::after,
+[type="radio"].with-gap:checked + label::after {
+  background-color: rgb(0, 85, 255) !important;
+}
+[type="radio"]:checked + label::after,
+[type="radio"].with-gap:checked + label::before,
+[type="radio"].with-gap:checked + label::after {
+  border: 2px solid rgb(0, 85, 255) !important;
+}
+
+[type="radio"]:checked + span:after,
+[type="radio"].with-gap:checked + span:before,
+[type="radio"].with-gap:checked + span:after {
+  border: 2px solid rgb(0, 85, 255) !important;
+}
+
+[type="radio"]:checked + span:after,
+[type="radio"].with-gap:checked + span:after {
+  background-color: rgb(0, 85, 255) !important;
+}
+[type="radio"]:checked + span:after,
+[type="radio"].with-gap:checked + span:before,
+[type="radio"].with-gap:checked + span:after {
+  border: 2px solid rgb(0, 85, 255) !important;
+}
+
+.btn-section {
+  margin: auto;
+}
+
+.action-btn {
+  width: auto;
+  height: 36px;
+  border-radius: 15px;
+  background: rgb(0, 85, 255); 
+  background-color: rgb(0, 85, 255);
+  color: #816519;
+  border-color: rgba(247, 214, 107, 0.4);
+  cursor: pointer;
+  padding: 0 10px;
+  text-align: center;
+  outline: none;
+  position: relative;
+  transform: translate3d(0, 0, 0);
+  overflow: hidden;
+  align-items: center;
+  display: flex;
+}
+
+.action-btn:hover{background: color;}
+.action-btn:active{background: rgb(0, 85, 255);}
+.btn:focus{
+  background-color: rgb(0, 85, 255);
+}
+
+.action-btn.wlh-btn-icon {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 5px;
+}
+
+.action-btn .action-btn-text {
+	color: white;
+  font-family: "Poppins", sans-serif;
+  display: inline-block;
+  vertical-align: top;
+  width: auto;
+  height: 28px;
+  line-height: 29px;
+  font-size: 17px;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+
+.datepicker-date-display {
+	background-color: rgb(0, 85, 255) !important; 
+}
+
+.timepicker-digital-display {
+	background-color: rgb(0, 85, 255) !important; 
+}
+.timepicker-digital-display {
+	-webkit-box-flex: 1;
+	-webkit-flex: 1 auto;
+	-ms-flex: 1 auto;
+	flex: 1 auto;
+	background-color: rgb(0, 85, 255) !important; 
+	padding: 10px;
+	font-weight: 300;
+}
+
+[type="radio"]:not(:checked), [type="radio"]:checked {
+  position: unset;
+  left: unset;
+  opacity: 1;
+}

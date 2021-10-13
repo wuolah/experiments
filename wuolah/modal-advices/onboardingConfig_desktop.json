@@ -1,0 +1,461 @@
+[
+    {
+        "id": "ob_su_s1",
+        "key": "signup",
+        "initial": 0,
+        "topSide": {
+            "backgroundColor": "#FFFFFF",
+            "backgroundImage": "https://wuolah-web.s3-eu-west-1.amazonaws.com/assets/onboardings/ob_su_s1.png",
+            "asset": null,
+            "assetSide": null
+        },
+        "bottomSide": {
+            "backgroundColor": "#FFFFFF",
+            "textColor": "#333333",
+            "title": "ob_su_s1_title",
+            "description": "ob_su_s1_description"
+        },
+        "cta": {
+            "status": 1,
+            "position": "left",
+            "icon": "https://wuolah-web.s3-eu-west-1.amazonaws.com/assets/onboardings/ob_su_s1_cta.svg",
+            "text": "ob_su_s1_cta",
+            "url": null,
+            "leftBackgroundColor": "#FFFFFF",
+            "rightBackgroundColor": "rgba(255, 255, 255, 0.2)",
+            "textColor": "#FFFFFF"
+        }
+    },
+    {
+        "id": "ob_su_s2",
+        "key": "signup",
+        "initial": 0,
+        "topSide": {
+            "backgroundColor": "#FFFFFF",
+            "backgroundImage": "https://wuolah-web.s3-eu-west-1.amazonaws.com/assets/onboardings/ob_su_s2.png",
+            "asset": null,
+            "assetSide": null
+        },
+        "bottomSide": {
+            "backgroundColor": "#FFFFFF",
+            "textColor": "#333333",
+            "title": "ob_su_s2_title",
+            "description": "ob_su_s2_description"
+        },
+        "cta": {
+            "status": 1,
+            "position": "left",
+            "icon": "https://wuolah-web.s3-eu-west-1.amazonaws.com/assets/onboardings/ob_su_s2_cta.svg",
+            "text": "ob_su_s2_cta",
+            "url": null,
+            "leftBackgroundColor": "#cccccc",
+            "rightBackgroundColor": "#FFFFFF",
+            "textColor": "#444444"
+        }
+    },
+    {
+        "id": "ob_su_s3",
+        "key": "signup",
+        "initial": 0,
+        "topSide": {
+            "backgroundColor": "#FFFFFF",
+            "backgroundImage": "https://wuolah-web.s3-eu-west-1.amazonaws.com/assets/onboardings/ob_su_s3.png",
+            "asset": null,
+            "assetSide": null
+        },
+        "bottomSide": {
+            "backgroundColor": "#FFFFFF",
+            "textColor": "#333333",
+            "title": "ob_su_s3_title",
+            "description": "ob_su_s3_description"
+        },
+        "cta": {
+            "status": 1,
+            "position": "left",
+            "icon": "https://wuolah-web.s3-eu-west-1.amazonaws.com/assets/onboardings/ob_su_s3_cta.svg",
+            "text": "ob_su_s3_cta",
+            "url": null,
+            "leftBackgroundColor": "#cccccc",
+            "rightBackgroundColor": "#FFFFFF",
+            "textColor": "#444444"
+        }
+    },
+    {
+        "id": "ob_su_s4",
+        "key": "signup",
+        "initial": 0,
+        "topSide": {
+            "backgroundColor": "#FFFFFF",
+            "backgroundImage": "https://wuolah-web.s3-eu-west-1.amazonaws.com/assets/onboardings/ob_su_s4.png",
+            "asset": null,
+            "assetSide": null
+        },
+        "bottomSide": {
+            "backgroundColor": "#FFFFFF",
+            "textColor": "#333333",
+            "title": "ob_su_s4_title",
+            "description": "ob_su_s4_description"
+        },
+        "cta": {
+            "status": 1,
+            "position": "left",
+            "icon": "https://wuolah-web.s3-eu-west-1.amazonaws.com/assets/onboardings/ob_su_s4_cta.svg",
+            "text": "ob_su_s4_cta",
+            "url": null,
+            "leftBackgroundColor": "#cccccc",
+            "rightBackgroundColor": "#FFFFFF",
+            "textColor": "#444444"
+        }
+    },
+    {
+        "id": "ob_su_s5",
+        "key": "signup",
+        "initial": 0,
+        "topSide": {
+            "backgroundColor": "#FFFFFF",
+            "backgroundImage": "https://wuolah-web.s3-eu-west-1.amazonaws.com/assets/onboardings/ob_su_s5.png",
+            "asset": null,
+            "assetSide": null
+        },
+        "bottomSide": {
+            "backgroundColor": "#FFFFFF",
+            "textColor": "#333333",
+            "title": "ob_su_s5_title",
+            "description": "ob_su_s5_description"
+        },
+        "cta": {
+            "status": 1,
+            "position": "left",
+            "icon": "https://wuolah-web.s3-eu-west-1.amazonaws.com/assets/onboardings/ob_su_s5_cta.svg",
+            "text": "ob_su_s5_cta",
+            "url": null,
+            "leftBackgroundColor": "#cccccc",
+            "rightBackgroundColor": "#FFFFFF",
+            "textColor": "#444444"
+        }
+    },
+    {
+        "id": "ob_su_s6",
+        "key": "signup",
+        "initial": 0,
+        "topSide": {
+            "backgroundColor": "#FFFFFF",
+            "backgroundImage": "https://wuolah-web.s3-eu-west-1.amazonaws.com/assets/onboardings/ob_su_s6.png",
+            "asset": null,
+            "assetSide": null
+        },
+        "bottomSide": {
+            "backgroundColor": "#FFFFFF",
+            "textColor": "#333333",
+            "title": "ob_su_s6_title",
+            "description": "ob_su_s6_description"
+        },
+        "cta": {
+            "status": 1,
+            "position": "left",
+            "icon": "https://wuolah-web.s3-eu-west-1.amazonaws.com/assets/onboardings/ob_su_s6_cta.svg",
+            "text": "ob_su_s6_cta",
+            "url": null,
+            "leftBackgroundColor": "#cccccc",
+            "rightBackgroundColor": "#FFFFFF",
+            "textColor": "#444444"
+        }
+    },
+    {
+        "id": "ob_sh_s1",
+        "key": "ob_shop",
+        "initial": 0,
+        "topSide": {
+            "backgroundColor": "#FFFFFF",
+            "backgroundImage": "https://wuolah-web.s3-eu-west-1.amazonaws.com/assets/onboardings/ob_sh_s1.png",
+            "asset": null,
+            "assetSide": null
+        },
+        "bottomSide": {
+            "backgroundColor": "#FFFFFF",
+            "textColor": "#333333",
+            "title": "ob_sh_s1_title",
+            "description": "ob_sh_s1_description"
+        },
+        "cta": {
+            "status": 1,
+            "position": "left",
+            "icon": "https://wuolah-web.s3-eu-west-1.amazonaws.com/assets/onboardings/ob_sh_s1_cta.svg",
+            "text": "ob_sh_s1_cta",
+            "url": null,
+            "leftBackgroundColor": "#cccccc",
+            "rightBackgroundColor": "#FFFFFF",
+            "textColor": "#444444"
+        }
+    },
+    {
+        "id": "ob_sh_s2",
+        "key": "ob_shop",
+        "initial": 0,
+        "topSide": {
+            "backgroundColor": "#FFFFFF",
+            "backgroundImage": "https://wuolah-web.s3-eu-west-1.amazonaws.com/assets/onboardings/ob_sh_s2.png",
+            "asset": null,
+            "assetSide": null
+        },
+        "bottomSide": {
+            "backgroundColor": "#FFFFFF",
+            "textColor": "#333333",
+            "title": "ob_sh_s2_title",
+            "description": "ob_sh_s2_description"
+        },
+        "cta": {
+            "status": 0,
+            "position": null,
+            "icon": null,
+            "text": null,
+            "url": null,
+            "leftBackgroundColor": null,
+            "rightBackgroundColor": null,
+            "textColor": null
+        }
+    },
+    {
+        "id": "ob_sh_s3",
+        "key": "ob_shop",
+        "initial": 0,
+        "topSide": {
+            "backgroundColor": "#FFFFFF",
+            "backgroundImage": "https://wuolah-web.s3-eu-west-1.amazonaws.com/assets/onboardings/ob_sh_s3.png",
+            "asset": null,
+            "assetSide": null
+        },
+        "bottomSide": {
+            "backgroundColor": "#FFFFFF",
+            "textColor": "#333333",
+            "title": "ob_sh_s3_title",
+            "description": "ob_sh_s3_description"
+        },
+        "cta": {
+            "status": 1,
+            "position": "left",
+            "icon": "https://wuolah-web.s3-eu-west-1.amazonaws.com/assets/onboardings/ob_sh_s3_cta.svg",
+            "text": "ob_sh_s3_cta",
+            "url": null,
+            "leftBackgroundColor": "#cccccc",
+            "rightBackgroundColor": "#FFFFFF",
+            "textColor": "#444444"
+        }
+    },
+    {
+        "id": "ob_sh_s4",
+        "key": "ob_shop",
+        "initial": 0,
+        "topSide": {
+            "backgroundColor": "#FFFFFF",
+            "backgroundImage": "https://wuolah-web.s3-eu-west-1.amazonaws.com/assets/onboardings/ob_sh_s4.png",
+            "asset": null,
+            "assetSide": null
+        },
+        "bottomSide": {
+            "backgroundColor": "#FFFFFF",
+            "textColor": "#333333",
+            "title": "ob_sh_s4_title",
+            "description": "ob_sh_s4_description"
+        },
+        "cta": {
+            "status": 1,
+            "position": "left",
+            "icon": "https://wuolah-web.s3-eu-west-1.amazonaws.com/assets/onboardings/ob_sh_s4_cta.svg",
+            "text": "ob_sh_s4_cta",
+            "url": null,
+            "leftBackgroundColor": "#cccccc",
+            "rightBackgroundColor": "#FFFFFF",
+            "textColor": "#444444"
+        }
+    },
+    {
+        "id": "ob_printer_s1",
+        "key": "ob_printer",
+        "initial": 0,
+        "topSide": {
+            "backgroundColor": "#F5F5F5",
+            "backgroundImage": "https://wuolah-web.s3-eu-west-1.amazonaws.com/assets/onboardings/ob_printer_s1.gif",
+            "asset": null,
+            "assetSide": null
+        },
+        "bottomSide": {
+            "backgroundColor": "#FFFFFF",
+            "textColor": "#333333",
+            "title": "ob_printer_s1_title",
+            "description": "ob_printer_s1_description"
+        },
+        "cta": {
+            "status": 0,
+            "position": "left",
+            "icon": "https://wuolah-web.s3-eu-west-1.amazonaws.com/assets/onboardings/ob_sh_s4_cta.svg",
+            "text": "ob_printer_s1_cta",
+            "url": null,
+            "leftBackgroundColor": "#cccccc",
+            "rightBackgroundColor": "#FFFFFF",
+            "textColor": "#444444"
+        }
+    },
+    {
+        "id": "ob_uploader_advice_s1",
+        "key": "ob_uploader_advice",
+        "initial": 0,
+        "topSide": {
+            "backgroundColor": "#fff",
+            "backgroundImage": "https://wuolah-web.s3-eu-west-1.amazonaws.com/assets/onboardings/ob_uploader_advice_s1.png",
+            "asset": null,
+            "assetSide": null
+        },
+        "bottomSide": {
+            "backgroundColor": "#FFFFFF",
+            "textColor": "#333333",
+            "title": "ob_uploader_advice_s1_title",
+            "description": "ob_uploader_advice_s1_description"
+        },
+        "cta": {
+            "status": 0,
+            "position": "left",
+            "icon": "https://wuolah-web.s3-eu-west-1.amazonaws.com/assets/onboardings/ob_sh_s4_cta.svg",
+            "text": "ob_uploader_advice_s1_cta",
+            "url": null,
+            "leftBackgroundColor": "#cccccc",
+            "rightBackgroundColor": "#FFFFFF",
+            "textColor": "#444444"
+        }
+    },
+    {
+        "id": "ob_uploader_remember_s1",
+        "key": "ob_uploader_remember",
+        "initial": 0,
+        "topSide": {
+            "backgroundColor": "#fff",
+            "backgroundImage": "https://wuolah-web.s3-eu-west-1.amazonaws.com/assets/onboardings/ob_uploader_advice_s1.png",
+            "asset": null,
+            "assetSide": null
+        },
+        "bottomSide": {
+            "backgroundColor": "#FFFFFF",
+            "textColor": "#333333",
+            "title": "ob_uploader_remember_s1_title",
+            "description": "ob_uploader_remember_s1_description"
+        },
+        "cta": {
+            "status": 0,
+            "position": "left",
+            "icon": "https://wuolah-web.s3-eu-west-1.amazonaws.com/assets/onboardings/ob_sh_s4_cta.svg",
+            "text": "ob_uploader_advice_s1_cta",
+            "url": null,
+            "leftBackgroundColor": "#cccccc",
+            "rightBackgroundColor": "#FFFFFF",
+            "textColor": "#444444"
+        }
+    },
+    {
+        "id": "ob_newnormality_s1",
+        "key": "ob_newnormality",
+        "initial": 0,
+        "topSide": {
+            "backgroundColor": "#fff",
+            "backgroundImage": "https://wuolah-public.s3-eu-west-1.amazonaws.com/site-assets/media/40k.jpg",
+            "asset": null,
+            "assetSide": null
+        },
+        "bottomSide": {
+            "backgroundColor": "#FFFFFF",
+            "textColor": "#333333",
+            "title": "ob_newnormality_s1_title",
+            "description": "ob_newnormality_s1_description"
+        },
+        "cta": {
+            "status": 0,
+            "position": "left",
+            "icon": "https://wuolah-web.s3-eu-west-1.amazonaws.com/assets/onboardings/ob_sh_s4_cta.svg",
+            "text": "ob_newnormality_s1_cta",
+            "url": null,
+            "leftBackgroundColor": "#cccccc",
+            "rightBackgroundColor": "#FFFFFF",
+            "textColor": "#444444"
+        }
+    },
+    {
+        "id": "ob_pro_s1",
+        "key": "ob_pro",
+        "initial": 0,
+        "topSide": {
+            "backgroundColor": "#FFFFFF",
+            "backgroundImage": "https://wuolah-web.s3-eu-west-1.amazonaws.com/assets/onboardings/ob_pro_s1.jpg",
+            "asset": null,
+            "assetSide": null
+        },
+        "bottomSide": {
+            "backgroundColor": "#f4f4f4",
+            "textColor": "#333333",
+            "title": "ob_pro_s1_title",
+            "description": "ob_pro_s1_description"
+        },
+        "cta": {
+            "status": 1,
+            "position": "left",
+            "icon": "https://wuolah-web.s3-eu-west-1.amazonaws.com/assets/onboardings/ob_pro_s1_cta.jpg",
+            "text": "ob_pro_s1_cta",
+            "url": null,
+            "leftBackgroundColor": "#000",
+            "rightBackgroundColor": "#F1F1F1",
+            "textColor": "#444444"
+        }
+    },
+    {
+        "id": "ob_pro_s2",
+        "key": "ob_pro",
+        "initial": 0,
+        "topSide": {
+            "backgroundColor": "#FFFFFF",
+            "backgroundImage": "https://wuolah-web.s3-eu-west-1.amazonaws.com/assets/onboardings/ob_pro_s2.jpg",
+            "asset": null,
+            "assetSide": null
+        },
+        "bottomSide": {
+            "backgroundColor": "#f4f4f4",
+            "textColor": "#333333",
+            "title": "ob_pro_s2_title",
+            "description": "ob_pro_s2_description"
+        },
+        "cta": {
+            "status": 1,
+            "position": "left",
+            "icon": "https://wuolah-web.s3-eu-west-1.amazonaws.com/assets/onboardings/ob_pro_s1_cta.jpg",
+            "text": "ob_pro_s1_cta",
+            "url": null,
+            "leftBackgroundColor": "#000",
+            "rightBackgroundColor": "#F1F1F1",
+            "textColor": "#444444"
+        }
+    },
+    {
+        "id": "ob_pro_s3",
+        "key": "ob_pro",
+        "initial": 0,
+        "topSide": {
+            "backgroundColor": "#FFFFFF",
+            "backgroundImage": "https://wuolah-web.s3-eu-west-1.amazonaws.com/assets/onboardings/ob_pro_s3.jpg",
+            "asset": null,
+            "assetSide": null
+        },
+        "bottomSide": {
+            "backgroundColor": "#f4f4f4",
+            "textColor": "#333333",
+            "title": "ob_pro_s3_title",
+            "description": "ob_pro_s3_description"
+        },
+        "cta": {
+            "status": 1,
+            "position": "left",
+            "icon": "https://wuolah-web.s3-eu-west-1.amazonaws.com/assets/onboardings/ob_pro_s1_cta.jpg",
+            "text": "ob_pro_s1_cta",
+            "url": null,
+            "leftBackgroundColor": "#000",
+            "rightBackgroundColor": "#F1F1F1",
+            "textColor": "#444444"
+        }
+    }
+]
